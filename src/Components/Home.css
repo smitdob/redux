@@ -1,0 +1,30 @@
+.image-wrapper.item {
+    height: 118px;
+    width: 118px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.image-wrapper.item img{
+    width: 100%;
+}
+.cart-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    border: 1px solid;
+    padding: 5px 15px;
+}
+.text-wrapper.item {
+    margin-right: 9px;
+}
+.add-to-cart {
+    position: absolute;
+    width: 55px;
+    top: 0;
+    right: 1%;
+}
+.add-to-cart img{
+    width: 100%;
+}
